@@ -13,20 +13,30 @@ the conceptual designs discussed with the user.
 
 from . import (
     bandit,
+    churn_sequence_model,
     clv,
+    data_models,
     feature_engineering,
     linear_allocator,
     monitoring,
     price_propensity,
+    rl_policy,
     state_machine,
+    touchpoint_assignment,
+    uplift,
 )
 
 __all__ = [
     "bandit",
+    "churn_sequence_model",
     "clv",
+    "data_models",
     "feature_engineering",
     "linear_allocator",
     "monitoring",
     "price_propensity",
+    "rl_policy",
     "state_machine",
+    "touchpoint_assignment",
+    "uplift",
 ]

@@ -5,7 +5,7 @@ Linear programming allocator for batch coupon assignment.
 from __future__ import annotations
 
 from dataclasses import dataclass
-from typing import Sequence
+from typing import Dict, List, Sequence, Tuple
 
 import numpy as np
 from scipy.optimize import linprog

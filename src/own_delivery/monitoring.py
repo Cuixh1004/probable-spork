@@ -5,7 +5,7 @@ Monitoring utilities for coupon campaign performance.
 from __future__ import annotations
 
 from dataclasses import dataclass
-from typing import Dict
+from typing import Dict, Tuple
 
 import numpy as np
 import pandas as pd

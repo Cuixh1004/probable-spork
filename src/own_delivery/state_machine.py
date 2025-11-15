@@ -4,9 +4,9 @@ State machine representing coupon inflation logic.
 
 from __future__ import annotations
 
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from enum import Enum, auto
-from typing import Dict
+from typing import Dict, Optional
 
 
 class CouponState(Enum):

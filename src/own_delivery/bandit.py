@@ -5,7 +5,7 @@ Budget-constrained multi-armed bandit for coupon allocation.
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from typing import Dict, List
+from typing import Dict, List, Tuple
 
 import numpy as np
 
